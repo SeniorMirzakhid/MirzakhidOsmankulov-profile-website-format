@@ -25,7 +25,7 @@
 </head>
 <body>
 <div class="first" style="display: flex; justify-content: space-around; padding: 30px;  font-size: 30px; background-color: yellow;margin: 0px;">
-	<div class="main"><a href="index.blade.php">About me</a></div>
+	<div class="main"><a href="/">About me</a></div>
 	<div class="main"><a href="skills.blade.php">Skills</a></div>
 	<div class="main"><a href="contacts.blade.php">Contacts</a></div>
 </div>
