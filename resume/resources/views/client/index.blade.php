@@ -4,6 +4,6 @@
 	<title>Client</title>
 </head>
 <body>
-{{ $clients }}
+{{ $information }}
 </body>
 </html>

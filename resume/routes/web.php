@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\SaveController;
 use App\Http\Controllers\DB;
 
 /*
@@ -38,8 +39,16 @@ Route::get('client/create', function() {
 	return view('client.create');
 });
 
+
+Route::get('client/save', function() {
+	return view('client.save');
+});
+
+
 Route::post('client/create',[ClientController::class,'store'])->name('add-client');
 
 Route::get('client/{id}', [ClientController::class, 'store'])->name('add-client');
 
 Route::get('client/{id}', [ClientController::class, 'get_client']);
+
+Route::post('client/save', [SaveController::class, 'stores'])->name('add-client');
